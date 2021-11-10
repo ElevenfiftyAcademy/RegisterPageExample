@@ -15,24 +15,28 @@ header {
     background-color: white;
     border-bottom: solid 1px dimgrey;
     padding: .75rem 0;
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-header button {
+header a {
     line-height: 1.5rem;
     font-size: 1em;
     margin-right: .5rem;
+    text-decoration: none;
 }
 
-button {
+header a, button {
     color: white;
-    background-color: #009ace;
+    background-color: #13a0ff;
     border: solid 1px gray;
     padding: .25rem .5rem;
     border-radius: 3px;
 }
 
 button:hover {
-    background-color: #0088b6;
+    background-color: #1084d1;
     cursor: pointer;
 }
 
@@ -43,6 +47,7 @@ body > div {
     margin: auto;
     border: solid 1px gray;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
